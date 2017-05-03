@@ -1,3 +1,5 @@
+# H5Parser
+
 ## Synopsis
 
 The Hero 5 data parser started as a holiday hacking project. The initial focus for h5parser was to reverse engineer the GoPro Hero 5 auxiliary binary data stream to extract the GPS, Accelerometer and Gyroscope data. As such, any actual functionality from the parser is focused on exploring the structure of the stream.
@@ -13,10 +15,10 @@ The code on master will parse files, but needs to be modified to output any usef
 The code on `orphaned_dev_changes` does not run.
 
 ## Dependencies
-> python 2.7
-> ffmpeg (to extract the data from the mp4 container)
-> bash
-> code skillz?
+* python 2.7
+* ffmpeg (to extract the data from the mp4 container)
+* bash
+* code skillz?
 
 ## Install (optional)
 
@@ -38,7 +40,7 @@ Process the file ("installed"):
 ./parser.py data.bin
 ```
 
-Process the file ("installed"):
+Process the file (not "installed"):
 ```bash
 python2.7 parser.py data.bin
 ```
