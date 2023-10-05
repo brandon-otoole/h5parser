@@ -7,7 +7,7 @@ The Hero 5 data parser started as a holiday hacking project. The initial focus f
 ## Notes and Credit
 My ego compels me to state that I mapped the file structure myself.
 
-But to be fair, David Stillman (https:github.com/stilldavid/gopro-utils) finished reverse engineering the file before I ever even started. Credit to him for great work. His code is clean, nice and used in production. Mine is a hot mess with a mid-life crisis due to a lack of purpose.
+But to be fair, David Stillman (https:github.com/stilldavid/gopro-utils) finished reverse engineering the file before I ever even started. Credit to him for great work. His code is clean, nice and used in production.
 
 ## Code and Branches
 The code on master will parse files, but needs to be modified to output any useful data. Feel free to write your own code to export the data as needed
